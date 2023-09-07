@@ -1,17 +1,21 @@
-This code implements a A* algorithm in 2D maps. Diagonals moves are ignored.
+This C++ code implements a A* algorithm in 2D maps. Diagonal movement is ignored.
 
-This 2D maps are formed by binary numbers. 0 represents an obstacle. 1 represents a valid position.
+2D maps are matrices of size [M,N] filled with binary numbers. 
 
-Entry format
-Colums and rows:   16 10
-2D Map:            1101101011100110011011011011000000100011000110111111111000110011001010101001110001101010010010111000011111101000101110100111111011100010010010110000001111001101
-Starting position: 0 0
-Final position:    15 9
+    -----> 0 represents an obstacle. 
+    -----> 1 represents a valid position.
 
-In this directory contains a file called InputExample. You can use it to test the code and then make your own entry files.
+2D Map Entry Format:
+Columns and rows     ->   16 10
+2D Map              ->   1101101011100110011011011011000000100011000110111111111000110011001010101001110001101010010010111000011111101000101110100111111011100010010010110000001111001101
+Starting position   ->   0 0
+Final position      ->   15 9
+
+In this directory, you can find a file called InputExample. You can use it to test the code and then make your own entry files.
 
 
-You can try really big 2D maps with millions of rows or columns. The file InputExampleLong is an example of big 2D Map.
+You can try really big 2D maps with millions of rows or columns. The file InputExampleLong is an example of a big 2D Map.
+
 
 
 Command to compile in a Linux console:
